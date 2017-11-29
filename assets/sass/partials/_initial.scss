@@ -76,16 +76,13 @@ body, .wrapper {
 
 .single-card {
     background-color: #fff;
-    padding: 70px 15px;
+    padding: 70px 35px;
     border-radius: 20px;
     padding-bottom: 40px;
     margin-bottom: 40px;
     @include box-shadow();
-    transition: $transition;
-    &:hover {
-        opacity: 0.7;
-        cursor: pointer;
-    }
+}
+.icon-card {
     img {
         height: 90px;
     }
@@ -95,4 +92,238 @@ body, .wrapper {
         margin-top: 40px;
         color: $primary-color;
     }
+    transition: $transition;
+    &:hover {
+        opacity: 0.7;
+        cursor: pointer;
+    }
 }
+
+
+
+// Profile page styles
+.profile-info-set {
+  .text-filed {
+      label > i {
+          color: $primary-color;
+      }
+      label > span {
+          font-weight: 600;
+          color: #2D2D2D;
+      }
+      label > input {
+          border-bottom: 2px solid $primary-color;
+          &:last-child {
+              border-bottom: 2px solid transparent;
+          }
+      }
+  }
+}
+.location-map {
+    .user-location {
+        color: $text-color;
+        font-weight: 700;
+        text-align: center;
+        font-size: 22px;
+        margin: 40px 0;
+    }
+}
+.users-social-links {
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        li {
+            float: left;
+            display: inline-block;
+        }
+        a {
+            color: #2D2D2D;
+            margin-right: 130px;
+            display: block;
+            font-size: 15px;
+            .fa {
+                width: 60px;
+                height: 40px;
+                background: #333333;
+                color: #fff;
+                text-align: center;
+                line-height: 41px;
+                margin-right: 10px;
+                border-radius: 13px;
+                font-size: 26px;
+            }
+            .fa-facebook {
+                background: #4C76BE;
+            }
+            .fa-twitter {
+                background: #00C7FF;
+            }
+            .fa-google-plus {
+                background: #FC5345;
+            }
+            .fa-linkedin {
+                background: #0B86CA;
+            }
+        }
+    }
+}
+.remove-account {
+    margin-top: 30px;
+}
+
+// Login page
+.login-header {
+    background: $primary-gredient;
+    padding: 30px 0;
+    .sign-up, .back-btn {
+        margin-top: 15px;
+    }
+}
+
+.login-form-section {
+    .single-card {
+        position: relative;
+        .btn-submit {
+            position: absolute;
+            text-align: center;
+            left: 0;
+            right: 0;
+            bottom: -30px;
+            a {
+                box-shadow: 0 12px 15px 10px rgba(119, 14, 207, 0.24) !important;
+            }
+        }
+    }
+    .other-buttons {
+        a {
+            color: #4b4b4b;
+            font-size: 15px;
+        }
+        p {
+            color: #4b4b4b;
+            font-weight: 600;
+        }
+        .btn-reset , .social-signup-buttons {
+            margin-top: 30px;
+        }
+        .btn-common {
+            font-size: 20px;
+            font-weight: 700;
+            letter-spacing: 0.1rem;
+            padding: 15px 45px;
+            @include box-shadow();
+        }
+        .btn-social {
+            color: #fff;
+            background: #333;
+            font-size: 14px;
+            padding: 12px 25px;
+            border-radius: 50px;
+            margin: 0 10px;
+            .fa {
+                color: #333;
+                background: #fff;
+                margin-left: 10px;
+                width: 25px;
+                height: 25px;
+                line-height: 25px;
+                border-radius: 50%;
+            }
+            &:hover {
+                opacity: 0.9;
+            }
+        }
+        .btn-fb {
+            background-color: #3b5999;
+            box-shadow: 0 4px 6px 6px rgba(59,89,153 , 0.24) !important;
+            .fa {
+                color: #3b5999;
+            }
+        }
+        .btn-tw {
+            background-color: #55acee;
+            box-shadow: 0 4px 6px 6px rgba(85,172,238 , 0.24) !important;
+            .fa {
+                color: #55acee;
+            }
+        }
+    }
+    label.checkbox {
+        color: #4b4b4b;
+        font-size: 12px;
+    }
+
+}
+
+    .text-filed {
+        label {
+        position: relative;
+        display: flex;
+        }
+        label > input {
+            position: relative;
+            background-color: transparent;
+            border: none;
+            border-bottom-width: medium;
+            border-bottom-style: none;
+            border-bottom-color: currentcolor;
+            border-bottom: 2px solid #a5a5a5;
+            border-radius: 0;
+            outline: none;
+            height: 40px;
+            width: 100%;
+            font-size: 16px;
+            margin: 0 0 30px 0;
+            padding: 0;
+            padding-left: 0px;
+            padding-left: 40px;
+            -webkit-box-shadow: none;
+            box-shadow: none;
+            -webkit-box-sizing: content-box;
+            box-sizing: content-box;
+            -webkit-transition: all .4s;
+            transition: all .4s;
+            letter-spacing: 0.1rem;
+        }
+        label > input:valid + span {
+        transform: translateY(-25px) scale(0.8);
+        transform-origin: 0;
+        }
+        label > input:valid {
+        border-bottom: 2px solid $primary-color;
+        box-shadow: 0 1px 0 0 $primary-color;
+        }
+        label > span {
+            color: #a5a5a5;
+            position: absolute;
+            top: 0;
+            left: 40px;
+            font-size: 16px;
+            cursor: text;
+            -webkit-transition: .2s ease-out;
+            transition: .2s ease-out;
+        }
+        label > i {
+            color: #a5a5a5;
+            position: absolute;
+            top: 3px;
+            left: -2px;
+            font-size: 24px !important;
+            cursor: text;
+            -webkit-transition: .2s ease-out;
+            transition: .2s ease-out;
+            width: 40px;
+            height: 50px;
+            background: #fff;
+        }
+        label > input:focus + span {
+        transform: translateY(-25px) scale(0.8);
+        transform-origin: 0;
+        color: #3F51B5;
+        }
+        label > input:focus {
+        border-bottom: 2px solid $primary-color;
+        box-shadow: 0 1px 0 0 $primary-color;
+        }
+    }

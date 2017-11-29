@@ -3,9 +3,9 @@
     padding: 25px 30px;
 
     h3 {
-        margin-top: 10px;
-        margin-bottom: 15px;
-        font-size: 20px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        font-size: 18px;
         color: #838383;
     }
     .user-no {
@@ -46,7 +46,7 @@
         font-size: 16px;
         line-height: 1.8;
         display: block;
-        padding: 10px 40px;
+        padding: 8px 40px;
         font-weight: 400;
         color: #727272;
 
@@ -55,7 +55,6 @@
         }
         &:hover {
             background-color: #F8F8F8;
-            @include menu-box-shadow();
             color: $primary-color;
         }
     }

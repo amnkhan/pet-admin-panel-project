@@ -7,7 +7,7 @@
 		"uuidString": "30947311-9618-48D1-987A-0AB2A011CA3C"
 		}
 	],
-"creatorBuild": "26097",
+"creatorBuild": "26148",
 "files": {
 	"\/assets\/css\/animate.css": {
 		"aP": 1,
@@ -150,11 +150,44 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/assets\/images\/back-btn.png": {
+		"ft": 32768,
+		"iS": 273,
+		"oA": 0,
+		"oAP": "\/assets\/images\/back-btn.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/assets\/images\/back-icon.png": {
 		"ft": 32768,
 		"iS": 1074,
 		"oA": 0,
 		"oAP": "\/assets\/images\/back-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/edit.png": {
+		"ft": 32768,
+		"iS": 713,
+		"oA": 0,
+		"oAP": "\/assets\/images\/edit.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/Group 193.png": {
+		"ft": 32768,
+		"iS": 29882,
+		"oA": 0,
+		"oAP": "\/assets\/images\/Group 193.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -337,6 +370,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/assets\/images\/logo-white.png": {
+		"ft": 32768,
+		"iS": 3883,
+		"oA": 0,
+		"oAP": "\/assets\/images\/logo-white.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/assets\/images\/logo.png": {
 		"ft": 32768,
 		"iS": 3806,
@@ -345,6 +389,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/map.png": {
+		"ft": 32768,
+		"iS": 29882,
+		"oA": 0,
+		"oAP": "\/assets\/images\/map.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -364,6 +419,17 @@
 		"iS": 3994,
 		"oA": 0,
 		"oAP": "\/assets\/images\/profile-pic.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/XMLID_15_.png": {
+		"ft": 32768,
+		"iS": 1966,
+		"oA": 0,
+		"oAP": "\/assets\/images\/XMLID_15_.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -482,6 +548,20 @@
 		"oAP": "\/index.html",
 		"oF": 0
 		},
+	"\/login.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/login.html",
+		"oF": 0
+		},
+	"\/profile.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/profile.html",
+		"oF": 0
+		},
 	"\/README.md": {
 		"cB": 0,
 		"cS": 0,
@@ -499,6 +579,13 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
+		},
+	"\/registration.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/registration.html",
+		"oF": 0
 		}
 	},
 "hooks": [
