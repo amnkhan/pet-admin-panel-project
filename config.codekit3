@@ -586,6 +586,13 @@
 		"oA": 0,
 		"oAP": "\/registration.html",
 		"oF": 0
+		},
+	"\/tree.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/tree.html",
+		"oF": 0
 		}
 	},
 "hooks": [

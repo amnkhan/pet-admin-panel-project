@@ -553,6 +553,47 @@ body, .wrapper {
           box-shadow: 0 1px 0 0 #770ECF;
 }
 
+.card-active {
+  background: #770ECF;
+  padding: 25px 40px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 14px 22px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 14px 22px rgba(0, 0, 0, 0.1);
+}
+
+.card-active p {
+  display: inline-block;
+  padding-right: 45px;
+  margin: 0;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.card-active p:last-child {
+  padding-right: 0;
+}
+
+.card-inactive {
+  background: #E4E4E4;
+  padding: 20px 40px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+.card-inactive p {
+  display: inline-block;
+  padding-right: 100px;
+  margin: 0;
+  color: #727272;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.card-inactive p:last-child {
+  padding-right: 0;
+}
+
 .loged-in-user-info {
   padding: 25px 30px;
 }
