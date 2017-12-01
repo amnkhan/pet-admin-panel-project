@@ -65,4 +65,19 @@
             color: $primary-color;
         }
     }
+
+    li.notification {
+    position: relative;
+    width: 100%;
+    }
+    li.notification::after {
+    position: absolute;
+    content: "";
+    background: $primary-color;
+    width: 10px;
+    height: 10px;
+    top: 10px;
+    border-radius: 50%;
+    right: 80px;
+    }
 }

@@ -9,6 +9,41 @@
 	],
 "creatorBuild": "26148",
 "files": {
+	"\/activator.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/activator.html",
+		"oF": 0
+		},
+	"\/add-ads.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/add-ads.html",
+		"oF": 0
+		},
+	"\/add-other-shop.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/add-other-shop.html",
+		"oF": 0
+		},
+	"\/add-shop.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/add-shop.html",
+		"oF": 0
+		},
+	"\/all-members.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/all-members.html",
+		"oF": 0
+		},
 	"\/assets\/css\/animate.css": {
 		"aP": 1,
 		"bl": 0,
@@ -166,6 +201,17 @@
 		"iS": 1074,
 		"oA": 0,
 		"oAP": "\/assets\/images\/back-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/calender.png": {
+		"ft": 32768,
+		"iS": 653,
+		"oA": 0,
+		"oAP": "\/assets\/images\/calender.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -370,6 +416,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/assets\/images\/list.png": {
+		"ft": 32768,
+		"iS": 343,
+		"oA": 0,
+		"oAP": "\/assets\/images\/list.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/assets\/images\/logo-white.png": {
 		"ft": 32768,
 		"iS": 3883,
@@ -419,6 +476,17 @@
 		"iS": 3994,
 		"oA": 0,
 		"oAP": "\/assets\/images\/profile-pic.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/rank-graph.png": {
+		"ft": 32768,
+		"iS": 8288,
+		"oA": 0,
+		"oAP": "\/assets\/images\/rank-graph.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -541,6 +609,34 @@
 		"oS": 1,
 		"uL": 1
 		},
+	"\/for-admin.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/for-admin.html",
+		"oF": 0
+		},
+	"\/for-admin1.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/for-admin1.html",
+		"oF": 0
+		},
+	"\/for-admin2.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/for-admin2.html",
+		"oF": 0
+		},
+	"\/income-factory.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/income-factory.html",
+		"oF": 0
+		},
 	"\/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -553,6 +649,20 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/login.html",
+		"oF": 0
+		},
+	"\/network.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/network.html",
+		"oF": 0
+		},
+	"\/product-view.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/product-view.html",
 		"oF": 0
 		},
 	"\/profile.html": {
@@ -580,11 +690,39 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"\/redem.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/redem.html",
+		"oF": 0
+		},
 	"\/registration.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/registration.html",
+		"oF": 0
+		},
+	"\/shop-earn.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/shop-earn.html",
+		"oF": 0
+		},
+	"\/shop.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/shop.html",
+		"oF": 0
+		},
+	"\/transactions.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/transactions.html",
 		"oF": 0
 		},
 	"\/tree.html": {
