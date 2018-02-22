@@ -693,3 +693,86 @@ body, .wrapper {
         margin-right: 0;
     }
 }
+
+
+// Invite Friends
+.invite-friend {
+    .btn-add {
+        padding: 15px 40px;
+        font-size: 18px;
+    }
+
+    // copy link
+    .copy-link {
+        margin-top: 50px;
+        p {
+            font-weight: 300;
+            color: #727272;
+            font-size: 16px;
+        }
+        .link {
+            border: 1px solid #95989A;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 4px;
+            span {
+                font-weight: 700;
+                color: $primary-color;
+                font-size: 22px;
+            }
+        }
+    }
+
+    // social icons
+    .social-icons {
+        margin-top: 30px;
+        .fa {
+            width: 50px;
+            height: 50px;
+            background: #333333;
+            color: #fff;
+            text-align: center;
+            line-height: 50px;
+            margin-right: 10px;
+            border-radius: 50%;
+            font-size: 26px;
+        }
+        .fa-facebook {
+            background: #4C76BE;
+        }
+        .fa-twitter {
+            background: #00C7FF;
+        }
+        .fa-google-plus {
+            background: #FC5345;
+        }
+        .fa-linkedin {
+            background: #0B86CA;
+        }
+    }
+}
+
+
+
+// Error page
+.error-page {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    span {
+        color: #727272;
+        font-size: 22px;
+        font-weight: 600;
+        margin: 30px 0;
+    }
+    .back {
+        margin-top: 50px;
+        a {
+            color: #727272;
+            font-size: 18px;
+        }
+    }
+}

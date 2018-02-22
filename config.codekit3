@@ -7,8 +7,15 @@
 		"uuidString": "30947311-9618-48D1-987A-0AB2A011CA3C"
 		}
 	],
-"creatorBuild": "26148",
+"creatorBuild": "26268",
 "files": {
+	"\/404.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/404.html",
+		"oF": 0
+		},
 	"\/activator.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -176,6 +183,17 @@
 		"oA": 0,
 		"oAP": "\/assets\/fonts\/glyphicons-halflings-regular.woff2",
 		"oF": 0
+		},
+	"\/assets\/images\/404.png": {
+		"ft": 32768,
+		"iS": 21392,
+		"oA": 0,
+		"oAP": "\/assets\/images\/404.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/assets\/images\/ajax-loader.gif": {
 		"ft": 4194304,
@@ -524,13 +542,23 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"\/assets\/js\/main.js": {
+	"\/assets\/js\/main-min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/main-min.js",
+		"oAP": "\/assets\/js\/main-min-min.js",
 		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/assets\/js\/main.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/assets\/js\/main-min.js",
+		"oF": 1,
 		"sC": 3,
 		"tS": 0
 		},
@@ -644,6 +672,13 @@
 		"oAP": "\/index.html",
 		"oF": 0
 		},
+	"\/invite-friend.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/invite-friend.html",
+		"oF": 0
+		},
 	"\/login.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -749,6 +784,7 @@
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
+	"autoprefixerEnableIEGrid": 0,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
 	"babelConfigFileHandlingType": 0,
@@ -1312,6 +1348,10 @@
 		"id-match": {
 			"active": 0,
 			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true}"
+			},
+		"implicit-arrow-linebreak": {
+			"active": 0,
+			"optionString": "'beside'"
 			},
 		"indent": {
 			"active": 0,
