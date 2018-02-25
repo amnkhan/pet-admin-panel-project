@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,500,600,700|Raleway:400,600");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700|Raleway:400,600");
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 body {
   font-family: "Open Sans", sans-serif;
@@ -994,7 +994,7 @@ body, .wrapper {
 }
 
 .error-page {
-  height: 100vh;
+  height: 500px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1008,6 +1008,10 @@ body, .wrapper {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.error-page img {
+  width: 450px;
 }
 
 .error-page span {
@@ -1024,6 +1028,260 @@ body, .wrapper {
 .error-page .back a {
   color: #727272;
   font-size: 18px;
+}
+
+.product-upload .btn-upload-image {
+  background: white;
+  border: 1px solid #eeeeee;
+  border-radius: 4px;
+  font-size: 18px;
+  padding: 25px 20px;
+  color: #333333;
+  font-weight: 300;
+}
+
+.product-upload .btn-upload-image .fa {
+  color: #333333;
+  margin-right: 5px;
+}
+
+.product-upload .btn-upload {
+  margin-top: 50px;
+  background-color: #770ECF;
+}
+
+.cashout-wrapper .user-balance-info {
+  margin-top: 30px;
+  width: 300px;
+}
+
+.cashout-wrapper .user-balance-info p {
+  font-size: 16px;
+  color: #727272;
+}
+
+.cashout-wrapper .user-balance-info p span {
+  font-weight: 600;
+  color: #770ECF;
+  float: right;
+}
+
+.cashout-wrapper .cashout-method {
+  padding: 40px 50px;
+}
+
+.cashout-wrapper .cashout-method h2 {
+  color: #727272;
+  font-weight: 600;
+}
+
+.cashout-wrapper .cashout-method p {
+  font-size: 16px;
+  color: #727272;
+}
+
+.cashout-wrapper .cashout-method .media-right img {
+  height: 100px;
+}
+
+.cashout-wrapper .state-notification {
+  margin-top: 50px;
+}
+
+.cashout-wrapper .state-notification .fa {
+  margin-right: 10px;
+}
+
+.cashout-wrapper .extended {
+  margin-top: 80px;
+}
+
+.cart-items .single-card {
+  padding: 15px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cart-items .single-card .product-image img {
+  width: 70px;
+}
+
+.cart-items .single-card .product-name p {
+  color: #770ECF;
+  margin: 0;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.cart-items .single-card .product-price span {
+  font-size: 15px;
+  color: #727272;
+}
+
+.cart-items .single-card .delete .fa {
+  color: #95989A;
+  font-size: 18px;
+}
+
+.billing-address p {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.billing-address span {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.billing-user-info {
+  width: 300px;
+}
+
+.billing-user-info p {
+  font-size: 16px;
+}
+
+.billing-user-info span {
+  float: right;
+  font-weight: 600;
+  color: #770ECF;
+}
+
+.total-bill {
+  margin-top: 20px;
+  padding-top: 40px;
+  border-top: 1px solid #95989A;
+}
+
+.total-bill p {
+  font-size: 24px;
+  font-weight: 700;
+  color: #727272;
+}
+
+.total-bill p span {
+  color: #770ECF;
+  margin-left: 150px;
+}
+
+.btn-checkout {
+  background-color: #770ECF;
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffffff;
+  padding: 10px 25px;
+}
+
+.btn-checkout:hover {
+  color: #ffffff;
+  background-color: #690cb7;
+}
+
+.bill-payment-methods h2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #727272;
+}
+
+.bill-payment-methods .methods {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bill-payment-methods .methods img {
+  height: 50px;
+}
+
+.bill-payment-methods .methods p {
+  font-size: 16px;
+  color: #727272;
+  margin-top: 20px;
+}
+
+.admin-payout .current-balance {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.admin-payout .current-balance p {
+  font-size: 16px;
+}
+
+.admin-payout .current-balance p span {
+  float: right;
+  font-weight: 600;
+  color: #770ECF;
+}
+
+.admin-payout .cashout-method {
+  margin-top: 30px;
+}
+
+.admin-payout .cashout-method span {
+  color: #727272;
+  font-size: 16px;
+}
+
+.admin-payout .cashout-method .method {
+  margin-top: 30px;
+}
+
+.admin-payout .cashout-method .method div {
+  display: inline-block;
+  margin: 0 20px;
+  padding: 12px;
+  width: 120px;
+  height: 100px;
+  border-radius: 6px;
+  border: 2px solid #dddd;
+}
+
+.admin-payout .cashout-method .method div img {
+  display: block;
+  height: 33px;
+  margin: 0 auto;
+}
+
+.admin-payout .cashout-method .method div span {
+  margin-top: 10px;
+  display: block;
+  font-size: 14px;
+}
+
+.admin-payout .user-info p {
+  color: #727272;
+  font-size: 16px;
+  line-height: 1.7;
+  margin-bottom: 15px;
+}
+
+.admin-payout .user-info p span {
+  float: right;
+  font-weight: 600;
+}
+
+.admin-payout .cart-items .single-card {
+  padding: 25px;
+}
+
+.admin-payout .cart-items .single-card .product-price {
+  font-weight: 600;
 }
 
 .loged-in-user-info {

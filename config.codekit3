@@ -225,11 +225,66 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/assets\/images\/bill-method1.png": {
+		"ft": 32768,
+		"iS": 9891,
+		"oA": 0,
+		"oAP": "\/assets\/images\/bill-method1.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/bill-method2.png": {
+		"ft": 32768,
+		"iS": 7883,
+		"oA": 0,
+		"oAP": "\/assets\/images\/bill-method2.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/bill-method3.png": {
+		"ft": 32768,
+		"iS": 4361,
+		"oA": 0,
+		"oAP": "\/assets\/images\/bill-method3.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/bkash-logo.png": {
+		"ft": 32768,
+		"iS": 13802,
+		"oA": 0,
+		"oAP": "\/assets\/images\/bkash-logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/assets\/images\/calender.png": {
 		"ft": 32768,
 		"iS": 653,
 		"oA": 0,
 		"oAP": "\/assets\/images\/calender.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/cart-product.png": {
+		"ft": 32768,
+		"iS": 14632,
+		"oA": 0,
+		"oAP": "\/assets\/images\/cart-product.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -467,6 +522,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/assets\/images\/manual-method.png": {
+		"ft": 32768,
+		"iS": 6640,
+		"oA": 0,
+		"oAP": "\/assets\/images\/manual-method.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/assets\/images\/map.png": {
 		"ft": 32768,
 		"iS": 29882,
@@ -637,6 +703,41 @@
 		"oS": 1,
 		"uL": 1
 		},
+	"\/cart-1.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/cart-1.html",
+		"oF": 0
+		},
+	"\/cart.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/cart.html",
+		"oF": 0
+		},
+	"\/cashout-error.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/cashout-error.html",
+		"oF": 0
+		},
+	"\/cashout-extended.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/cashout-extended.html",
+		"oF": 0
+		},
+	"\/cashout.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/cashout.html",
+		"oF": 0
+		},
 	"\/for-admin.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -691,6 +792,27 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/network.html",
+		"oF": 0
+		},
+	"\/payment-req-expand.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/payment-req-expand.html",
+		"oF": 0
+		},
+	"\/payment-req.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/payment-req.html",
+		"oF": 0
+		},
+	"\/product-upload.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/product-upload.html",
 		"oF": 0
 		},
 	"\/product-view.html": {
